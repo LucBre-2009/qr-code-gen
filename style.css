@@ -28,6 +28,7 @@ header {
   padding: 30px 15px;
 }
 
+/* CARD */
 .card {
   width: 100%;
   max-width: 520px;
@@ -35,12 +36,16 @@ header {
   padding: 24px;
   border-radius: 16px;
   box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+
+  /* KEY CHANGE: align everything left */
+  text-align: left;
 }
 
+/* INPUT: full width, not centered */
 input {
   width: 100%;
-  padding: 14px;
-  font-size: 15px;
+  padding: 16px;
+  font-size: 16px;
   border-radius: 10px;
   border: 1px solid #dbe3f0;
   outline: none;
@@ -50,35 +55,44 @@ input:focus {
   border-color: #2563eb;
 }
 
+/* BUTTON ROW */
 .actions {
   display: flex;
-  gap: 10px;
-  margin-top: 12px;
+  gap: 12px;
+  margin-top: 14px;
 }
 
+/* BUTTONS: bigger + blue + stronger presence */
 button {
   flex: 1;
-  padding: 10px;
+  padding: 14px;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   cursor: pointer;
   font-weight: 600;
+  font-size: 15px;
   transition: 0.2s;
 }
 
+/* Clear button now ALSO blue (secondary blue tone) */
 #clearBtn {
-  background: #e5e7eb;
+  background: #3b82f6;
+  color: white;
 }
 
+/* Download primary blue */
 #downloadBtn {
   background: #2563eb;
   color: white;
 }
 
+/* hover = real product feel */
 button:hover {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  filter: brightness(1.05);
 }
 
+/* QR area */
 .qr-wrap {
   margin-top: 25px;
   display: flex;
@@ -98,6 +112,7 @@ button:hover {
   font-size: 14px;
 }
 
+/* toast */
 .toast {
   position: fixed;
   bottom: 20px;
