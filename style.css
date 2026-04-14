@@ -1,13 +1,10 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f8ff;
-  color: #1a1a1a;
   background-image: url('background.png');
 }
 
 header {
-  background: #2563eb;
   color: white;
   padding: 60px 20px;
   text-align: center;
