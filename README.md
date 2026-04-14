@@ -19,7 +19,7 @@ No backend, no tracking, no data storage — everything runs directly in your br
 
 If hosted on GitHub Pages:
 
-https://your-username.github.io/your-repository/
+https://lucbre-2009.github.io/qr-code-gen/
 
 ---
 
