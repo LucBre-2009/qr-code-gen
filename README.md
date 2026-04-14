@@ -17,7 +17,7 @@ No backend, no tracking, no data storage — everything runs directly in your br
 
 ## 🖥️ Live Demo
 
-If hosted on GitHub Pages:
+Hosted on GitHub Pages:
 
 https://lucbre-2009.github.io/qr-code-gen/
 
