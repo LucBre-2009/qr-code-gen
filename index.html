@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>QR Generator</title>
+  <title>QR Code Generator</title>
 
   <link rel="stylesheet" href="style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -12,33 +12,28 @@
 <body>
 
 <header>
-  <div class="header-inner">
-    <h1>QR Generator</h1>
-    <p>Instant, clean QR codes — right in your browser</p>
-  </div>
+  <h1>QR Code Generator</h1>
+  <p>Paste a link or text and generate a QR code instantly</p>
 </header>
 
-<main class="container">
+<div class="container">
 
-  <div class="card">
+  <input id="text" type="text" placeholder="Enter URL or text..." />
 
-    <input id="text" type="text" placeholder="Paste a link or text..." />
-
-    <div class="actions">
-      <button id="clearBtn">Clear</button>
-      <button id="downloadBtn">Download</button>
-    </div>
-
-    <div class="qr-wrap">
-      <div id="qrcode"></div>
-      <div id="emptyState">Your QR code will appear here</div>
-    </div>
-
-    <div id="toast" class="toast">Done</div>
-
+  <div class="buttons">
+    <button id="clearBtn">Clear</button>
+    <button id="downloadBtn">Download QR</button>
   </div>
 
-</main>
+  <div class="qr-box">
+    <div id="qrcode"></div>
+  </div>
+
+  <p class="hint">
+    Fully client-side. Nothing is stored or sent anywhere.<br><br>Made by LucBre
+  </p>
+
+</div>
 
 <script src="script.js"></script>
 
