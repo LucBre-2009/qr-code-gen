@@ -1,53 +1,42 @@
 body {
   margin: 0;
-  font-family: system-ui, Arial;
-  background: #f5f8ff;
-  color: #111;
+  font-family: Arial, sans-serif;
+  background: #f4f8ff;
+  color: #1a1a1a;
 }
 
 header {
-  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  background: #2563eb;
   color: white;
   padding: 60px 20px;
   text-align: center;
 }
 
-.header-inner h1 {
+header h1 {
   margin: 0;
-  font-size: 40px;
+  font-size: 42px;
 }
 
-.header-inner p {
+header p {
   opacity: 0.9;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  padding: 30px 15px;
-}
-
-/* CARD */
-.card {
-  width: 100%;
-  max-width: 520px;
+  max-width: 700px;
+  margin: -40px auto 0;
   background: white;
-  padding: 24px;
+  padding: 30px;
   border-radius: 16px;
-  box-shadow: 0 12px 35px rgba(0,0,0,0.08);
-
-  /* KEY CHANGE: align everything left */
-  text-align: left;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* INPUT: full width, not centered */
 input {
   width: 100%;
-  padding: 16px;
+  padding: 14px;
   font-size: 16px;
+  border: 2px solid #e5e7eb;
   border-radius: 10px;
-  border: 1px solid #dbe3f0;
   outline: none;
 }
 
@@ -55,74 +44,20 @@ input:focus {
   border-color: #2563eb;
 }
 
-/* BUTTON ROW */
-.actions {
-  display: flex;
-  gap: 12px;
-  margin-top: 14px;
-}
-
-/* BUTTONS: bigger + blue + stronger presence */
-button {
-  flex: 1;
-  padding: 14px;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 15px;
-  transition: 0.2s;
-}
-
-/* Clear button now ALSO blue (secondary blue tone) */
-#clearBtn {
-  background: #3b82f6;
-  color: white;
-}
-
-/* Download primary blue */
-#downloadBtn {
-  background: #2563eb;
-  color: white;
-}
-
-/* hover = real product feel */
-button:hover {
-  transform: translateY(-2px);
-  filter: brightness(1.05);
-}
-
-/* QR area */
-.qr-wrap {
+.qr-box {
   margin-top: 25px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 220px;
-  position: relative;
 }
 
 #qrcode {
   padding: 15px;
+  background: white;
 }
 
-#emptyState {
-  position: absolute;
-  color: #94a3b8;
+.hint {
+  text-align: center;
+  margin-top: 15px;
+  color: #6b7280;
   font-size: 14px;
 }
-
-/* toast */
-.toast {
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #111;
-  color: white;
-  padding: 10px 14px;
-  border-radius: 10px;
-  opacity: 0;
-  transition: 0.3s;
-}
-
