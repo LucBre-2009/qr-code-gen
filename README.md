@@ -5,7 +5,7 @@ No backend, no tracking, no data storage — everything runs directly in your br
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Generate QR codes instantly from text or URLs
 - Fully responsive and lightweight design
@@ -15,7 +15,7 @@ No backend, no tracking, no data storage — everything runs directly in your br
 
 ---
 
-## 🖥️ Live Demo
+##  Live Demo
 
 Hosted on GitHub Pages:
 
