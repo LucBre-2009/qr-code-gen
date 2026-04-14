@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QR Code Generator</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+
+<body>
+
+<header>
+  <h1>QR Code Generator</h1>
+  <p>Paste a link or text and generate a QR code instantly</p>
+</header>
+
+<div class="container">
+  <input id="text" type="text" placeholder="Enter URL or text..." />
+
+  <div class="qr-box">
+    <div id="qrcode"></div>
+  </div>
+
+  <p class="hint">
+    Fully client-side. Nothing is stored or sent anywhere.
+  </p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
