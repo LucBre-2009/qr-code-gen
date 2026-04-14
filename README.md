@@ -23,8 +23,5 @@ https://lucbre-2009.github.io/qr-code-gen/
 
 ---
 
-## 📁 Project Structure
 
-index.html
-style.css
-script.js
+# Made by LucBre
