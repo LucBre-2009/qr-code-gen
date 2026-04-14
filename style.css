@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -24,7 +28,7 @@ header p {
 
 .container {
   max-width: 700px;
-  margin: -40px auto 0;
+  margin: 40px auto 0; /* FIX: kein negativer Margin */
   background: white;
   padding: 30px;
   border-radius: 16px;
@@ -33,6 +37,7 @@ header p {
 
 input {
   width: 100%;
+  display: block;
   padding: 14px;
   font-size: 16px;
   border: 2px solid #e5e7eb;
